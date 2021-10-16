@@ -1,1 +1,2 @@
-# solve 2.21 
+# 2.21 simplify code
+
