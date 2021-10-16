@@ -1,4 +1,9 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+<<<<<<< HEAD
   LINK : 最後的累加連結找不到或未建置 ..\..\temp\debug\HW.exe，正在執行完整連結
 LINK : fatal error LNK1104: 無法開啟檔案 '..\..\temp\debug\HW.exe'
+=======
+  main.c
+  HW.vcxproj -> C:\c_code\homework\2.24\HW\HW\..\..\temp\debug\HW.exe
+>>>>>>> develop

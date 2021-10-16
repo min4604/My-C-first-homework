@@ -1,26 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int num[3];
+int num;
 
 void main(void)
 {
-	printf("Please write three number :");
-	scanf_s("%d %d %d", &num[0], &num[1], &num[2]);
-	
-	for (int i = 3; i > 0; i--)
+	printf("Please write one number :");
+	scanf_s("%d", &num);
+	if ((num % 2) == 1)
 	{
-		for (int b = 0; b < i; b++)
-		{
-			if (num[i] > num[b])
-			{
-				int save = num[i];
-				num[i] = num[b];
-				num[b] = save;
-			}
-		}
+		printf("number %d is odd\n", num);
 	}
-	printf("largest number: %d\nsmallest number :%d\n",num[0],num[2]);
+	else
+	{
+		printf("number %d is even\n", num);
+	}
 	system("pause");
 	
 }
