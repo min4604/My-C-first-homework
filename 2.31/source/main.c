@@ -3,15 +3,19 @@
 
 
 
+int num[3];
+
 void main(void)
 {
-	printf("    *\n");
-	printf("   ***\n");
-	printf("  *****\n");
-	printf(" *******\n");
-	printf("*********\n");
-	system("Pause");
-	printf("    *\n   ***\n  *****\n *******\n*********\n");
+	printf("number\tsquare\tcube\n");
+	for (int i = 0; i < 11; i++)
+	{
+		num[0] = i;
+		num[1] = i*i;
+		num[2] = i*i*i;
+		printf("%d\t%d\t%d\n", num[0],num[1],num[2]);
+	}
+
 	system("pause");
 	
 }
