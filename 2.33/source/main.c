@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-float totalmiles, gasoline, gallon, parking, tollspar;
+float totalmiles, gasoline, gallon, parking, tollspar,totalpay;
 
 void main(void)
 {
@@ -15,7 +15,9 @@ void main(void)
 	printf("\nTolls per day:");
 	scanf_s("%f", &tollspar);
 
-	printf("%.2f %.2f %.2f %.2f %.2f", totalmiles, gasoline, gallon, parking, tollspar);
+	totalpay = totalmiles / gallon * gasoline;
+	totalpay += (parking + tollspar);
+	printf("one day you need pay %.2f", totalpay);
 
 	system("pause");
 }

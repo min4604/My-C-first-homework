@@ -6,4 +6,4 @@
 # 2.27 finish
 # 2.31 finish
 # 2.32 finish
-# 2.33 half
+# 2.33 finish
