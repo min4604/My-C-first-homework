@@ -1,25 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 char text[] = "\
- PPPPPPPPP\n\
-     P   P\n\
-     P   P\n\
-     P   P\n\
-      P P \n\
-          \n\
-   JJ     \n\
-  J       \n\
- J        \n\
-  J       \n\
-   JJJJJJJ\n\
-          \n\
- DDDDDDDDD\n\
- D       D\n\
- D       D\n\
-  D     D \n\
-   DDDDD  \n";
+  S   SS \n\
+ S   S  S\n\
+S   S   S\n\
+S  S   S \n\
+ SS   S  \n\
+         \n\
+HHHHHHHHH\n\
+    H    \n\
+    H    \n\
+    H    \n\
+HHHHHHHHH\n\
+         \n\
+I       I\n\
+IIIIIIIII\n\
+I       I\n\
+         \n\
+EEEEEEEEE\n\
+E   E   E\n\
+E   E   E\n\
+E   E   E\n\
+E   E   E\n\
+         \n\
+HHHHHHHHH\n\
+    H    \n\
+    H    \n\
+    H    \n\
+HHHHHHHHH\n";
 
 void main(void)
 {
